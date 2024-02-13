@@ -150,3 +150,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+
+#  temp data folders
+00_scripts_user_filter_24hs_delete/data_2019_processed/
+00_scripts_user_filter_24hs_delete/data_2019_processed/train/
+00_scripts_user_filter_24hs_delete/data_2019_processed/test/

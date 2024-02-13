@@ -1,4 +1,4 @@
-# Form folder
+# Train folder
 
-This folder store the pre-processed user formularies.
+This folder store the pre-processed train data.
  
