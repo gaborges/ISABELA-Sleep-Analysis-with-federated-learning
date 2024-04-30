@@ -1,0 +1,1042 @@
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:41,150 | app.py:146 | Starting Flower simulation, config: ServerConfig(num_rounds=200, round_timeout=None)
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:43,860 | app.py:180 | Flower VCE: Ray initialized with resources: {'CPU': 8.0, 'memory': 19198112564.0, 'object_store_memory': 9599056281.0, 'node:10.17.0.243': 1.0, 'node:__internal_head__': 1.0}
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:43,860 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:43,860 | server.py:273 | Requesting initial parameters from one random client
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:46,579 | server.py:277 | Received initial parameters from one random client
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:46,579 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:58,026 | server.py:91 | initial parameters (loss, other metrics): 0.848151683807373, {'accuracy': 0.29595664143562317}
+myFlowerExperiment | INFO flwr 2024-02-17 16:49:58,026 | server.py:101 | FL starting
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:49:58,026 | server.py:218 | fit_round 1: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:51:05,147 | server.py:232 | fit_round 1 received 19 results and 0 failures
+myFlowerExperiment | WARNING flwr 2024-02-17 16:51:05,156 | fedavg.py:243 | No fit_metrics_aggregation_fn provided
+myFlowerExperiment | INFO flwr 2024-02-17 16:51:15,476 | server.py:119 | fit progress: (1, 0.6942398548126221, {'accuracy': 0.7109009027481079}, 77.4495984200039)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:51:15,476 | server.py:168 | evaluate_round 1: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:51:16,369 | server.py:182 | evaluate_round 1 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:51:16,369 | server.py:218 | fit_round 2: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:52:14,821 | server.py:232 | fit_round 2 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:52:25,216 | server.py:119 | fit progress: (2, 0.8307570815086365, {'accuracy': 0.7292864918708801}, 147.18969921300595)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:52:25,216 | server.py:168 | evaluate_round 2: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:52:25,954 | server.py:182 | evaluate_round 2 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:52:25,954 | server.py:218 | fit_round 3: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:53:22,588 | server.py:232 | fit_round 3 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:53:33,131 | server.py:119 | fit progress: (3, 0.9151548147201538, {'accuracy': 0.7435872554779053}, 215.10506365800393)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:53:33,131 | server.py:168 | evaluate_round 3: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:53:33,804 | server.py:182 | evaluate_round 3 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:53:33,804 | server.py:218 | fit_round 4: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:54:31,228 | server.py:232 | fit_round 4 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:54:41,632 | server.py:119 | fit progress: (4, 1.0127999782562256, {'accuracy': 0.7518088817596436}, 283.6056387569988)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:54:41,632 | server.py:168 | evaluate_round 4: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:54:42,300 | server.py:182 | evaluate_round 4 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:54:42,300 | server.py:218 | fit_round 5: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:55:40,386 | server.py:232 | fit_round 5 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:55:50,813 | server.py:119 | fit progress: (5, 1.1305311918258667, {'accuracy': 0.7541293501853943}, 352.78682622499764)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:55:50,813 | server.py:168 | evaluate_round 5: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:55:51,570 | server.py:182 | evaluate_round 5 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:55:51,570 | server.py:218 | fit_round 6: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:56:49,349 | server.py:232 | fit_round 6 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:56:59,701 | server.py:119 | fit progress: (6, 1.2254877090454102, {'accuracy': 0.7524909377098083}, 421.67443350100075)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:56:59,701 | server.py:168 | evaluate_round 6: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:57:00,372 | server.py:182 | evaluate_round 6 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:57:00,373 | server.py:218 | fit_round 7: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:57:59,123 | server.py:232 | fit_round 7 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:58:09,640 | server.py:119 | fit progress: (7, 1.3114069700241089, {'accuracy': 0.7495848536491394}, 491.61369296400517)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:58:09,640 | server.py:168 | evaluate_round 7: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:58:10,315 | server.py:182 | evaluate_round 7 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:58:10,315 | server.py:218 | fit_round 8: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:59:07,907 | server.py:232 | fit_round 8 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 16:59:18,524 | server.py:119 | fit progress: (8, 1.3862605094909668, {'accuracy': 0.7477018237113953}, 560.4982727559982)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:59:18,525 | server.py:168 | evaluate_round 8: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:59:19,189 | server.py:182 | evaluate_round 8 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 16:59:19,189 | server.py:218 | fit_round 9: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:00:16,615 | server.py:232 | fit_round 9 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:00:27,186 | server.py:119 | fit progress: (9, 1.4574469327926636, {'accuracy': 0.7478945255279541}, 629.159672135007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:00:27,186 | server.py:168 | evaluate_round 9: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:00:27,855 | server.py:182 | evaluate_round 9 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:00:27,855 | server.py:218 | fit_round 10: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:01:24,205 | server.py:232 | fit_round 10 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:01:34,598 | server.py:119 | fit progress: (10, 1.5328483581542969, {'accuracy': 0.7475312948226929}, 696.5713876000082)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:01:34,598 | server.py:168 | evaluate_round 10: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:01:35,266 | server.py:182 | evaluate_round 10 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:01:35,266 | server.py:218 | fit_round 11: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:02:32,198 | server.py:232 | fit_round 11 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:02:42,496 | server.py:119 | fit progress: (11, 1.556503415107727, {'accuracy': 0.7460559606552124}, 764.4696822140104)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:02:42,496 | server.py:168 | evaluate_round 11: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:02:43,162 | server.py:182 | evaluate_round 11 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:02:43,163 | server.py:218 | fit_round 12: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:03:40,347 | server.py:232 | fit_round 12 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:03:50,885 | server.py:119 | fit progress: (12, 1.607469081878662, {'accuracy': 0.7467825412750244}, 832.8593765740079)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:03:50,886 | server.py:168 | evaluate_round 12: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:03:51,534 | server.py:182 | evaluate_round 12 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:03:51,534 | server.py:218 | fit_round 13: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:04:48,373 | server.py:232 | fit_round 13 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:04:58,851 | server.py:119 | fit progress: (13, 1.6456323862075806, {'accuracy': 0.7477685213088989}, 900.8245319359994)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:04:58,851 | server.py:168 | evaluate_round 13: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:04:59,568 | server.py:182 | evaluate_round 13 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:04:59,569 | server.py:218 | fit_round 14: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:05:56,834 | server.py:232 | fit_round 14 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:06:07,420 | server.py:119 | fit progress: (14, 1.690932273864746, {'accuracy': 0.7481021285057068}, 969.3940551810083)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:06:07,421 | server.py:168 | evaluate_round 14: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:06:08,084 | server.py:182 | evaluate_round 14 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:06:08,085 | server.py:218 | fit_round 15: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:07:04,458 | server.py:232 | fit_round 15 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:07:15,058 | server.py:119 | fit progress: (15, 1.7223310470581055, {'accuracy': 0.7476425170898438}, 1037.0314155660017)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:07:15,058 | server.py:168 | evaluate_round 15: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:07:15,735 | server.py:182 | evaluate_round 15 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:07:15,735 | server.py:218 | fit_round 16: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:08:13,738 | server.py:232 | fit_round 16 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:08:24,275 | server.py:119 | fit progress: (16, 1.772728443145752, {'accuracy': 0.748250424861908}, 1106.2483968910092)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:08:24,275 | server.py:168 | evaluate_round 16: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:08:24,948 | server.py:182 | evaluate_round 16 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:08:24,949 | server.py:218 | fit_round 17: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:09:22,294 | server.py:232 | fit_round 17 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:09:32,751 | server.py:119 | fit progress: (17, 1.770595669746399, {'accuracy': 0.7481318116188049}, 1174.7247804030048)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:09:32,751 | server.py:168 | evaluate_round 17: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:09:33,414 | server.py:182 | evaluate_round 17 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:09:33,414 | server.py:218 | fit_round 18: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:10:32,355 | server.py:232 | fit_round 18 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:10:42,838 | server.py:119 | fit progress: (18, 1.811106562614441, {'accuracy': 0.7480502128601074}, 1244.8114378820028)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:10:42,838 | server.py:168 | evaluate_round 18: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:10:43,528 | server.py:182 | evaluate_round 18 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:10:43,529 | server.py:218 | fit_round 19: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:11:40,418 | server.py:232 | fit_round 19 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:11:50,793 | server.py:119 | fit progress: (19, 1.8185533285140991, {'accuracy': 0.7485024333000183}, 1312.7669522340002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:11:50,793 | server.py:168 | evaluate_round 19: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:11:51,517 | server.py:182 | evaluate_round 19 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:11:51,517 | server.py:218 | fit_round 20: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:12:48,968 | server.py:232 | fit_round 20 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:12:59,418 | server.py:119 | fit progress: (20, 1.8566375970840454, {'accuracy': 0.7487174272537231}, 1381.3919889570097)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:12:59,418 | server.py:168 | evaluate_round 20: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:13:00,076 | server.py:182 | evaluate_round 20 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:13:00,077 | server.py:218 | fit_round 21: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:13:56,897 | server.py:232 | fit_round 21 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:14:07,231 | server.py:119 | fit progress: (21, 1.8616846799850464, {'accuracy': 0.7483615875244141}, 1449.2047855690034)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:14:07,231 | server.py:168 | evaluate_round 21: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:14:08,030 | server.py:182 | evaluate_round 21 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:14:08,031 | server.py:218 | fit_round 22: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:15:05,004 | server.py:232 | fit_round 22 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:15:15,474 | server.py:119 | fit progress: (22, 1.8995885848999023, {'accuracy': 0.7479761242866516}, 1517.4482635169988)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:15:15,475 | server.py:168 | evaluate_round 22: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:15:16,144 | server.py:182 | evaluate_round 22 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:15:16,145 | server.py:218 | fit_round 23: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:16:12,371 | server.py:232 | fit_round 23 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:16:23,834 | server.py:119 | fit progress: (23, 1.8997775316238403, {'accuracy': 0.7481169700622559}, 1585.808354563007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:16:23,835 | server.py:168 | evaluate_round 23: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:16:24,496 | server.py:182 | evaluate_round 23 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:16:24,497 | server.py:218 | fit_round 24: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:17:21,567 | server.py:232 | fit_round 24 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:17:32,038 | server.py:119 | fit progress: (24, 1.9208160638809204, {'accuracy': 0.7483468055725098}, 1654.011565135006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:17:32,038 | server.py:168 | evaluate_round 24: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:17:32,730 | server.py:182 | evaluate_round 24 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:17:32,730 | server.py:218 | fit_round 25: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:18:30,923 | server.py:232 | fit_round 25 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:18:41,399 | server.py:119 | fit progress: (25, 1.9574285745620728, {'accuracy': 0.7492660284042358}, 1723.372545473001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:18:41,399 | server.py:168 | evaluate_round 25: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:18:42,062 | server.py:182 | evaluate_round 25 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:18:42,062 | server.py:218 | fit_round 26: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:19:40,024 | server.py:232 | fit_round 26 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:19:50,820 | server.py:119 | fit progress: (26, 1.9583617448806763, {'accuracy': 0.749073326587677}, 1792.7939230390039)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:19:50,820 | server.py:168 | evaluate_round 26: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:19:51,499 | server.py:182 | evaluate_round 26 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:19:51,499 | server.py:218 | fit_round 27: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:20:49,842 | server.py:232 | fit_round 27 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:21:00,384 | server.py:119 | fit progress: (27, 1.9924951791763306, {'accuracy': 0.7488434910774231}, 1862.3574905300047)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:21:00,384 | server.py:168 | evaluate_round 27: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:21:01,035 | server.py:182 | evaluate_round 27 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:21:01,036 | server.py:218 | fit_round 28: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:21:58,941 | server.py:232 | fit_round 28 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:22:09,536 | server.py:119 | fit progress: (28, 2.0088348388671875, {'accuracy': 0.7480872869491577}, 1931.5096594770002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:22:09,536 | server.py:168 | evaluate_round 28: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:22:10,477 | server.py:182 | evaluate_round 28 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:22:10,478 | server.py:218 | fit_round 29: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:23:07,151 | server.py:232 | fit_round 29 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:23:17,768 | server.py:119 | fit progress: (29, 2.0229692459106445, {'accuracy': 0.7481465935707092}, 1999.7422023670078)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:23:17,769 | server.py:168 | evaluate_round 29: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:23:18,421 | server.py:182 | evaluate_round 29 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:23:18,422 | server.py:218 | fit_round 30: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:24:16,476 | server.py:232 | fit_round 30 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:24:26,986 | server.py:119 | fit progress: (30, 2.0495471954345703, {'accuracy': 0.7487174272537231}, 2068.9597253250104)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:24:26,986 | server.py:168 | evaluate_round 30: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:24:27,728 | server.py:182 | evaluate_round 30 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:24:27,728 | server.py:218 | fit_round 31: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:25:25,748 | server.py:232 | fit_round 31 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:25:36,472 | server.py:119 | fit progress: (31, 2.0499112606048584, {'accuracy': 0.7488212585449219}, 2138.4454689590057)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:25:36,472 | server.py:168 | evaluate_round 31: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:25:37,149 | server.py:182 | evaluate_round 31 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:25:37,150 | server.py:218 | fit_round 32: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:26:33,352 | server.py:232 | fit_round 32 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:26:43,898 | server.py:119 | fit progress: (32, 2.0619757175445557, {'accuracy': 0.7500519156455994}, 2205.871911894006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:26:43,898 | server.py:168 | evaluate_round 32: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:26:44,560 | server.py:182 | evaluate_round 32 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:26:44,560 | server.py:218 | fit_round 33: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:27:42,682 | server.py:232 | fit_round 33 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:27:53,212 | server.py:119 | fit progress: (33, 2.076416254043579, {'accuracy': 0.7489621043205261}, 2275.1858839310007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:27:53,212 | server.py:168 | evaluate_round 33: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:27:53,872 | server.py:182 | evaluate_round 33 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:27:53,872 | server.py:218 | fit_round 34: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:28:52,726 | server.py:232 | fit_round 34 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:29:04,142 | server.py:119 | fit progress: (34, 2.086965799331665, {'accuracy': 0.749636709690094}, 2346.115482730005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:29:04,142 | server.py:168 | evaluate_round 34: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:29:04,802 | server.py:182 | evaluate_round 34 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:29:04,802 | server.py:218 | fit_round 35: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:30:02,846 | server.py:232 | fit_round 35 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:30:18,461 | server.py:119 | fit progress: (35, 2.083256959915161, {'accuracy': 0.7499926090240479}, 2420.4348456419975)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:30:18,461 | server.py:168 | evaluate_round 35: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:30:19,126 | server.py:182 | evaluate_round 35 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:30:19,126 | server.py:218 | fit_round 36: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:31:16,838 | server.py:232 | fit_round 36 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:31:27,330 | server.py:119 | fit progress: (36, 2.1036505699157715, {'accuracy': 0.7494884729385376}, 2489.304353296)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:31:27,331 | server.py:168 | evaluate_round 36: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:31:28,006 | server.py:182 | evaluate_round 36 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:31:28,007 | server.py:218 | fit_round 37: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:32:25,420 | server.py:232 | fit_round 37 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:32:35,879 | server.py:119 | fit progress: (37, 2.121528148651123, {'accuracy': 0.7497850060462952}, 2557.8532928890054)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:32:35,880 | server.py:168 | evaluate_round 37: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:32:36,549 | server.py:182 | evaluate_round 37 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:32:36,549 | server.py:218 | fit_round 38: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:33:34,433 | server.py:232 | fit_round 38 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:33:44,885 | server.py:119 | fit progress: (38, 2.1467463970184326, {'accuracy': 0.7500889897346497}, 2626.858517807006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:33:44,885 | server.py:168 | evaluate_round 38: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:33:45,549 | server.py:182 | evaluate_round 38 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:33:45,549 | server.py:218 | fit_round 39: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:34:42,915 | server.py:232 | fit_round 39 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:34:53,288 | server.py:119 | fit progress: (39, 2.129333734512329, {'accuracy': 0.7498591542243958}, 2695.262180563004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:34:53,289 | server.py:168 | evaluate_round 39: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:34:53,948 | server.py:182 | evaluate_round 39 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:34:53,949 | server.py:218 | fit_round 40: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:35:51,010 | server.py:232 | fit_round 40 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:36:01,474 | server.py:119 | fit progress: (40, 2.132479667663574, {'accuracy': 0.7498887777328491}, 2763.448213185009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:36:01,475 | server.py:168 | evaluate_round 40: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:36:02,148 | server.py:182 | evaluate_round 40 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:36:02,148 | server.py:218 | fit_round 41: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:37:00,505 | server.py:232 | fit_round 41 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:37:11,273 | server.py:119 | fit progress: (41, 2.1357581615448, {'accuracy': 0.7498591542243958}, 2833.2465267030057)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:37:11,273 | server.py:168 | evaluate_round 41: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:37:11,941 | server.py:182 | evaluate_round 41 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:37:11,941 | server.py:218 | fit_round 42: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:38:10,000 | server.py:232 | fit_round 42 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:38:20,433 | server.py:119 | fit progress: (42, 2.1373634338378906, {'accuracy': 0.7493105530738831}, 2902.4073673950043)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:38:20,434 | server.py:168 | evaluate_round 42: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:38:21,110 | server.py:182 | evaluate_round 42 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:38:21,110 | server.py:218 | fit_round 43: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:39:18,645 | server.py:232 | fit_round 43 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:39:29,096 | server.py:119 | fit progress: (43, 2.1525073051452637, {'accuracy': 0.75034099817276}, 2971.07018291)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:39:29,097 | server.py:168 | evaluate_round 43: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:39:29,771 | server.py:182 | evaluate_round 43 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:39:29,771 | server.py:218 | fit_round 44: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:40:27,843 | server.py:232 | fit_round 44 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:40:38,230 | server.py:119 | fit progress: (44, 2.1823155879974365, {'accuracy': 0.7504448294639587}, 3040.203458781005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:40:38,230 | server.py:168 | evaluate_round 44: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:40:38,904 | server.py:182 | evaluate_round 44 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:40:38,904 | server.py:218 | fit_round 45: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:41:36,267 | server.py:232 | fit_round 45 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:41:46,691 | server.py:119 | fit progress: (45, 2.1808931827545166, {'accuracy': 0.7502891421318054}, 3108.664765969006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:41:46,691 | server.py:168 | evaluate_round 45: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:41:47,345 | server.py:182 | evaluate_round 45 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:41:47,345 | server.py:218 | fit_round 46: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:42:44,779 | server.py:232 | fit_round 46 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:42:55,153 | server.py:119 | fit progress: (46, 2.1725261211395264, {'accuracy': 0.7506152987480164}, 3177.1267552790086)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:42:55,153 | server.py:168 | evaluate_round 46: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:42:55,822 | server.py:182 | evaluate_round 46 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:42:55,823 | server.py:218 | fit_round 47: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:43:53,733 | server.py:232 | fit_round 47 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:44:04,151 | server.py:119 | fit progress: (47, 2.188398838043213, {'accuracy': 0.7505634427070618}, 3246.1246844710113)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:44:04,151 | server.py:168 | evaluate_round 47: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:44:04,831 | server.py:182 | evaluate_round 47 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:44:04,831 | server.py:218 | fit_round 48: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:45:02,144 | server.py:232 | fit_round 48 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:45:13,060 | server.py:119 | fit progress: (48, 2.177861452102661, {'accuracy': 0.7508006691932678}, 3315.033393671998)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:45:13,060 | server.py:168 | evaluate_round 48: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:45:13,721 | server.py:182 | evaluate_round 48 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:45:13,722 | server.py:218 | fit_round 49: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:46:11,513 | server.py:232 | fit_round 49 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:46:21,913 | server.py:119 | fit progress: (49, 2.1998085975646973, {'accuracy': 0.7507265210151672}, 3383.887150249997)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:46:21,914 | server.py:168 | evaluate_round 49: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:46:22,567 | server.py:182 | evaluate_round 49 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:46:22,567 | server.py:218 | fit_round 50: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:47:21,338 | server.py:232 | fit_round 50 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:47:31,900 | server.py:119 | fit progress: (50, 2.189871311187744, {'accuracy': 0.7497998476028442}, 3453.8739603430004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:47:31,900 | server.py:168 | evaluate_round 50: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:47:32,560 | server.py:182 | evaluate_round 50 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:47:32,561 | server.py:218 | fit_round 51: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:48:31,082 | server.py:232 | fit_round 51 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:48:41,833 | server.py:119 | fit progress: (51, 2.2285330295562744, {'accuracy': 0.7502743005752563}, 3523.8065464750107)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:48:41,833 | server.py:168 | evaluate_round 51: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:48:42,523 | server.py:182 | evaluate_round 51 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:48:42,524 | server.py:218 | fit_round 52: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:49:39,526 | server.py:232 | fit_round 52 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:49:50,163 | server.py:119 | fit progress: (52, 2.216984987258911, {'accuracy': 0.7501705288887024}, 3592.137209613007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:49:50,164 | server.py:168 | evaluate_round 52: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:49:50,853 | server.py:182 | evaluate_round 52 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:49:50,853 | server.py:218 | fit_round 53: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:50:48,240 | server.py:232 | fit_round 53 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:50:58,755 | server.py:119 | fit progress: (53, 2.2400290966033936, {'accuracy': 0.7501630783081055}, 3660.7288615730067)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:50:58,755 | server.py:168 | evaluate_round 53: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:50:59,421 | server.py:182 | evaluate_round 53 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:50:59,421 | server.py:218 | fit_round 54: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:51:58,152 | server.py:232 | fit_round 54 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:52:08,742 | server.py:119 | fit progress: (54, 2.244866371154785, {'accuracy': 0.7502001523971558}, 3730.7159713209985)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:52:08,742 | server.py:168 | evaluate_round 54: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:52:09,411 | server.py:182 | evaluate_round 54 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:52:09,411 | server.py:218 | fit_round 55: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:53:07,407 | server.py:232 | fit_round 55 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:53:17,890 | server.py:119 | fit progress: (55, 2.254253387451172, {'accuracy': 0.7501779198646545}, 3799.864106167006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:53:17,891 | server.py:168 | evaluate_round 55: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:53:18,560 | server.py:182 | evaluate_round 55 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:53:18,560 | server.py:218 | fit_round 56: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:54:17,042 | server.py:232 | fit_round 56 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:54:27,657 | server.py:119 | fit progress: (56, 2.267580986022949, {'accuracy': 0.7490436434745789}, 3869.6311748029984)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:54:27,658 | server.py:168 | evaluate_round 56: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:54:28,320 | server.py:182 | evaluate_round 56 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:54:28,321 | server.py:218 | fit_round 57: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:55:25,793 | server.py:232 | fit_round 57 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:55:36,338 | server.py:119 | fit progress: (57, 2.276365041732788, {'accuracy': 0.7482355833053589}, 3938.3122135400044)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:55:36,339 | server.py:168 | evaluate_round 57: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:55:37,091 | server.py:182 | evaluate_round 57 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:55:37,091 | server.py:218 | fit_round 58: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:56:34,409 | server.py:232 | fit_round 58 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:56:44,992 | server.py:119 | fit progress: (58, 2.307968854904175, {'accuracy': 0.7495477795600891}, 4006.9662983960006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:56:44,993 | server.py:168 | evaluate_round 58: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:56:45,666 | server.py:182 | evaluate_round 58 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:56:45,666 | server.py:218 | fit_round 59: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:57:42,707 | server.py:232 | fit_round 59 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:57:54,239 | server.py:119 | fit progress: (59, 2.3125290870666504, {'accuracy': 0.7499777674674988}, 4076.213210425005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:57:54,240 | server.py:168 | evaluate_round 59: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:57:54,887 | server.py:182 | evaluate_round 59 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:57:54,887 | server.py:218 | fit_round 60: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:58:52,879 | server.py:232 | fit_round 60 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 17:59:03,386 | server.py:119 | fit progress: (60, 2.3439245223999023, {'accuracy': 0.7490658760070801}, 4145.360236591005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:59:03,387 | server.py:168 | evaluate_round 60: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:59:04,040 | server.py:182 | evaluate_round 60 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 17:59:04,040 | server.py:218 | fit_round 61: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:00:02,246 | server.py:232 | fit_round 61 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:00:12,776 | server.py:119 | fit progress: (61, 2.3181710243225098, {'accuracy': 0.7464637160301208}, 4214.749481234001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:00:12,776 | server.py:168 | evaluate_round 61: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:00:13,458 | server.py:182 | evaluate_round 61 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:00:13,459 | server.py:218 | fit_round 62: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:01:10,831 | server.py:232 | fit_round 62 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:01:21,301 | server.py:119 | fit progress: (62, 2.3427658081054688, {'accuracy': 0.7472495436668396}, 4283.275113664)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:01:21,301 | server.py:168 | evaluate_round 62: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:01:22,330 | server.py:182 | evaluate_round 62 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:01:22,330 | server.py:218 | fit_round 63: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:02:20,416 | server.py:232 | fit_round 63 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:02:35,901 | server.py:119 | fit progress: (63, 2.364194869995117, {'accuracy': 0.7467083930969238}, 4357.8746134480025)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:02:35,901 | server.py:168 | evaluate_round 63: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:02:36,580 | server.py:182 | evaluate_round 63 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:02:36,581 | server.py:218 | fit_round 64: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:03:34,591 | server.py:232 | fit_round 64 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:03:45,436 | server.py:119 | fit progress: (64, 2.360785484313965, {'accuracy': 0.7470568418502808}, 4427.41020860101)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:03:45,437 | server.py:168 | evaluate_round 64: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:03:46,113 | server.py:182 | evaluate_round 64 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:03:46,113 | server.py:218 | fit_round 65: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:04:43,682 | server.py:232 | fit_round 65 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:04:54,158 | server.py:119 | fit progress: (65, 2.3773953914642334, {'accuracy': 0.7472792267799377}, 4496.131520577008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:04:54,158 | server.py:168 | evaluate_round 65: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:04:55,146 | server.py:182 | evaluate_round 65 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:04:55,146 | server.py:218 | fit_round 66: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:05:52,798 | server.py:232 | fit_round 66 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:06:03,253 | server.py:119 | fit progress: (66, 2.403926134109497, {'accuracy': 0.7471902370452881}, 4565.226589514001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:06:03,253 | server.py:168 | evaluate_round 66: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:06:03,923 | server.py:182 | evaluate_round 66 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:06:03,923 | server.py:218 | fit_round 67: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:07:01,656 | server.py:232 | fit_round 67 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:07:12,186 | server.py:119 | fit progress: (67, 2.4022326469421387, {'accuracy': 0.746960461139679}, 4634.160133657002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:07:12,187 | server.py:168 | evaluate_round 67: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:07:12,838 | server.py:182 | evaluate_round 67 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:07:12,838 | server.py:218 | fit_round 68: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:08:10,215 | server.py:232 | fit_round 68 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:08:20,685 | server.py:119 | fit progress: (68, 2.4435081481933594, {'accuracy': 0.7472050786018372}, 4702.658546407998)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:08:20,685 | server.py:168 | evaluate_round 68: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:08:21,347 | server.py:182 | evaluate_round 68 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:08:21,348 | server.py:218 | fit_round 69: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:09:18,637 | server.py:232 | fit_round 69 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:09:29,126 | server.py:119 | fit progress: (69, 2.412196636199951, {'accuracy': 0.746374785900116}, 4771.099491715009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:09:29,126 | server.py:168 | evaluate_round 69: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:09:29,800 | server.py:182 | evaluate_round 69 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:09:29,800 | server.py:218 | fit_round 70: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:10:27,672 | server.py:232 | fit_round 70 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:10:38,033 | server.py:119 | fit progress: (70, 2.4541356563568115, {'accuracy': 0.7472199201583862}, 4840.007354079004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:10:38,034 | server.py:168 | evaluate_round 70: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:10:38,691 | server.py:182 | evaluate_round 70 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:10:38,691 | server.py:218 | fit_round 71: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:11:36,526 | server.py:232 | fit_round 71 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:11:47,106 | server.py:119 | fit progress: (71, 2.4673452377319336, {'accuracy': 0.746834397315979}, 4909.079827192007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:11:47,106 | server.py:168 | evaluate_round 71: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:11:47,775 | server.py:182 | evaluate_round 71 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:11:47,776 | server.py:218 | fit_round 72: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:12:46,224 | server.py:232 | fit_round 72 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:12:56,653 | server.py:119 | fit progress: (72, 2.491016149520874, {'accuracy': 0.7465156316757202}, 4978.62646569901)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:12:56,653 | server.py:168 | evaluate_round 72: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:12:57,328 | server.py:182 | evaluate_round 72 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:12:57,328 | server.py:218 | fit_round 73: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:13:54,879 | server.py:232 | fit_round 73 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:14:05,340 | server.py:119 | fit progress: (73, 2.4879374504089355, {'accuracy': 0.7465749382972717}, 5047.313994748998)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:14:05,340 | server.py:168 | evaluate_round 73: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:14:06,006 | server.py:182 | evaluate_round 73 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:14:06,006 | server.py:218 | fit_round 74: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:15:03,246 | server.py:232 | fit_round 74 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:15:13,720 | server.py:119 | fit progress: (74, 2.5265517234802246, {'accuracy': 0.7467602491378784}, 5115.694382921007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:15:13,721 | server.py:168 | evaluate_round 74: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:15:14,385 | server.py:182 | evaluate_round 74 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:15:14,386 | server.py:218 | fit_round 75: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:16:12,940 | server.py:232 | fit_round 75 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:16:23,377 | server.py:119 | fit progress: (75, 2.5334877967834473, {'accuracy': 0.7473829984664917}, 5185.350780074004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:16:23,377 | server.py:168 | evaluate_round 75: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:16:24,053 | server.py:182 | evaluate_round 75 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:16:24,054 | server.py:218 | fit_round 76: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:17:20,553 | server.py:232 | fit_round 76 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:17:30,999 | server.py:119 | fit progress: (76, 2.5820865631103516, {'accuracy': 0.7470642328262329}, 5252.973187430005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:17:31,000 | server.py:168 | evaluate_round 76: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:17:31,810 | server.py:182 | evaluate_round 76 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:17:31,810 | server.py:218 | fit_round 77: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:18:30,037 | server.py:232 | fit_round 77 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:18:40,643 | server.py:119 | fit progress: (77, 2.5592684745788574, {'accuracy': 0.7468270063400269}, 5322.616806040998)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:18:40,643 | server.py:168 | evaluate_round 77: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:18:41,420 | server.py:182 | evaluate_round 77 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:18:41,420 | server.py:218 | fit_round 78: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:19:38,115 | server.py:232 | fit_round 78 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:19:48,929 | server.py:119 | fit progress: (78, 2.584346055984497, {'accuracy': 0.745781660079956}, 5390.902790699009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:19:48,929 | server.py:168 | evaluate_round 78: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:19:49,612 | server.py:182 | evaluate_round 78 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:19:49,613 | server.py:218 | fit_round 79: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:20:46,190 | server.py:232 | fit_round 79 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:20:56,696 | server.py:119 | fit progress: (79, 2.5988729000091553, {'accuracy': 0.7459447979927063}, 5458.669901847999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:20:56,696 | server.py:168 | evaluate_round 79: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:20:57,346 | server.py:182 | evaluate_round 79 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:20:57,346 | server.py:218 | fit_round 80: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:21:55,766 | server.py:232 | fit_round 80 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:22:06,134 | server.py:119 | fit progress: (80, 2.6491262912750244, {'accuracy': 0.7459447979927063}, 5528.108186159006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:22:06,135 | server.py:168 | evaluate_round 80: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:22:06,941 | server.py:182 | evaluate_round 80 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:22:06,941 | server.py:218 | fit_round 81: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:23:05,426 | server.py:232 | fit_round 81 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:23:15,888 | server.py:119 | fit progress: (81, 2.6624462604522705, {'accuracy': 0.7474645376205444}, 5597.8616945910035)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:23:15,888 | server.py:168 | evaluate_round 81: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:23:16,564 | server.py:182 | evaluate_round 81 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:23:16,564 | server.py:218 | fit_round 82: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:24:14,302 | server.py:232 | fit_round 82 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:24:24,843 | server.py:119 | fit progress: (82, 2.6635444164276123, {'accuracy': 0.7455592751502991}, 5666.816623378007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:24:24,843 | server.py:168 | evaluate_round 82: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:24:25,527 | server.py:182 | evaluate_round 82 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:24:25,527 | server.py:218 | fit_round 83: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:25:24,779 | server.py:232 | fit_round 83 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:25:36,143 | server.py:119 | fit progress: (83, 2.669830799102783, {'accuracy': 0.7462116479873657}, 5738.116692070005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:25:36,143 | server.py:168 | evaluate_round 83: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:25:36,830 | server.py:182 | evaluate_round 83 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:25:36,831 | server.py:218 | fit_round 84: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:26:34,764 | server.py:232 | fit_round 84 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:26:50,244 | server.py:119 | fit progress: (84, 2.669179677963257, {'accuracy': 0.7462339401245117}, 5812.2179971669975)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:26:50,244 | server.py:168 | evaluate_round 84: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:26:50,920 | server.py:182 | evaluate_round 84 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:26:50,920 | server.py:218 | fit_round 85: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:27:47,875 | server.py:232 | fit_round 85 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:27:58,449 | server.py:119 | fit progress: (85, 2.6994311809539795, {'accuracy': 0.7447289824485779}, 5880.423126849011)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:27:58,449 | server.py:168 | evaluate_round 85: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:27:59,241 | server.py:182 | evaluate_round 85 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:27:59,242 | server.py:218 | fit_round 86: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:28:55,658 | server.py:232 | fit_round 86 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:29:11,122 | server.py:119 | fit progress: (86, 2.7237226963043213, {'accuracy': 0.7459002733230591}, 5953.096333740003)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:29:11,123 | server.py:168 | evaluate_round 86: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:29:11,962 | server.py:182 | evaluate_round 86 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:29:11,962 | server.py:218 | fit_round 87: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:30:10,543 | server.py:232 | fit_round 87 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:30:22,007 | server.py:119 | fit progress: (87, 2.7413289546966553, {'accuracy': 0.7469011545181274}, 6023.980809094006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:30:22,007 | server.py:168 | evaluate_round 87: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:30:22,668 | server.py:182 | evaluate_round 87 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:30:22,669 | server.py:218 | fit_round 88: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:31:20,821 | server.py:232 | fit_round 88 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:31:31,315 | server.py:119 | fit progress: (88, 2.7383673191070557, {'accuracy': 0.7459299564361572}, 6093.288693038005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:31:31,315 | server.py:168 | evaluate_round 88: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:31:31,982 | server.py:182 | evaluate_round 88 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:31:31,983 | server.py:218 | fit_round 89: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:32:29,967 | server.py:232 | fit_round 89 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:32:40,697 | server.py:119 | fit progress: (89, 2.7813069820404053, {'accuracy': 0.7473088502883911}, 6162.6706722600065)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:32:40,697 | server.py:168 | evaluate_round 89: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:32:41,497 | server.py:182 | evaluate_round 89 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:32:41,498 | server.py:218 | fit_round 90: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:33:39,420 | server.py:232 | fit_round 90 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:33:49,809 | server.py:119 | fit progress: (90, 2.763453960418701, {'accuracy': 0.746597170829773}, 6231.782409266001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:33:49,809 | server.py:168 | evaluate_round 90: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:33:50,651 | server.py:182 | evaluate_round 90 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:33:50,651 | server.py:218 | fit_round 91: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:34:48,603 | server.py:232 | fit_round 91 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:34:59,139 | server.py:119 | fit progress: (91, 2.7975449562072754, {'accuracy': 0.7479093670845032}, 6301.112953848002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:34:59,139 | server.py:168 | evaluate_round 91: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:34:59,819 | server.py:182 | evaluate_round 91 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:34:59,819 | server.py:218 | fit_round 92: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:35:56,934 | server.py:232 | fit_round 92 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:36:07,370 | server.py:119 | fit progress: (92, 2.803905963897705, {'accuracy': 0.7478204369544983}, 6369.344111526007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:36:07,371 | server.py:168 | evaluate_round 92: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:36:08,034 | server.py:182 | evaluate_round 92 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:36:08,034 | server.py:218 | fit_round 93: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:37:05,217 | server.py:232 | fit_round 93 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:37:15,791 | server.py:119 | fit progress: (93, 2.8311057090759277, {'accuracy': 0.7480131387710571}, 6437.765018498001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:37:15,791 | server.py:168 | evaluate_round 93: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:37:16,441 | server.py:182 | evaluate_round 93 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:37:16,441 | server.py:218 | fit_round 94: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:38:14,868 | server.py:232 | fit_round 94 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:38:25,318 | server.py:119 | fit progress: (94, 2.8375866413116455, {'accuracy': 0.7483912706375122}, 6507.2915208890045)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:38:25,318 | server.py:168 | evaluate_round 94: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:38:25,982 | server.py:182 | evaluate_round 94 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:38:25,982 | server.py:218 | fit_round 95: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:39:24,053 | server.py:232 | fit_round 95 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:39:35,396 | server.py:119 | fit progress: (95, 2.859468460083008, {'accuracy': 0.7482355833053589}, 6577.370055438005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:39:35,396 | server.py:168 | evaluate_round 95: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:39:36,174 | server.py:182 | evaluate_round 95 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:39:36,174 | server.py:218 | fit_round 96: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:40:33,729 | server.py:232 | fit_round 96 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:40:44,345 | server.py:119 | fit progress: (96, 2.8839476108551025, {'accuracy': 0.7485617995262146}, 6646.319298611008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:40:44,346 | server.py:168 | evaluate_round 96: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:40:44,993 | server.py:182 | evaluate_round 96 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:40:44,994 | server.py:218 | fit_round 97: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:41:42,808 | server.py:232 | fit_round 97 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:41:53,192 | server.py:119 | fit progress: (97, 2.8654215335845947, {'accuracy': 0.7474571466445923}, 6715.165528983009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:41:53,192 | server.py:168 | evaluate_round 97: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:41:54,179 | server.py:182 | evaluate_round 97 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:41:54,179 | server.py:218 | fit_round 98: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:42:51,983 | server.py:232 | fit_round 98 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:43:02,478 | server.py:119 | fit progress: (98, 2.8834264278411865, {'accuracy': 0.7477536797523499}, 6784.451945584005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:43:02,478 | server.py:168 | evaluate_round 98: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:43:03,157 | server.py:182 | evaluate_round 98 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:43:03,157 | server.py:218 | fit_round 99: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:44:00,715 | server.py:232 | fit_round 99 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:44:11,245 | server.py:119 | fit progress: (99, 2.888094663619995, {'accuracy': 0.7481688261032104}, 6853.218894739999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:44:11,245 | server.py:168 | evaluate_round 99: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:44:11,915 | server.py:182 | evaluate_round 99 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:44:11,915 | server.py:218 | fit_round 100: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:45:09,401 | server.py:232 | fit_round 100 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:45:19,925 | server.py:119 | fit progress: (100, 2.9362633228302, {'accuracy': 0.7477536797523499}, 6921.898561078007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:45:19,925 | server.py:168 | evaluate_round 100: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:45:20,593 | server.py:182 | evaluate_round 100 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:45:20,594 | server.py:218 | fit_round 101: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:46:18,662 | server.py:232 | fit_round 101 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:46:29,191 | server.py:119 | fit progress: (101, 2.954078435897827, {'accuracy': 0.7475757598876953}, 6991.164740544002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:46:29,191 | server.py:168 | evaluate_round 101: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:46:29,861 | server.py:182 | evaluate_round 101 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:46:29,861 | server.py:218 | fit_round 102: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:47:27,533 | server.py:232 | fit_round 102 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:47:37,935 | server.py:119 | fit progress: (102, 2.9493930339813232, {'accuracy': 0.7478945255279541}, 7059.909380413999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:47:37,936 | server.py:168 | evaluate_round 102: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:47:38,635 | server.py:182 | evaluate_round 102 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:47:38,636 | server.py:218 | fit_round 103: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:48:36,920 | server.py:232 | fit_round 103 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:48:47,327 | server.py:119 | fit progress: (103, 2.953076124191284, {'accuracy': 0.7468937039375305}, 7129.300775152005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:48:47,327 | server.py:168 | evaluate_round 103: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:48:48,003 | server.py:182 | evaluate_round 103 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:48:48,003 | server.py:218 | fit_round 104: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:49:46,527 | server.py:232 | fit_round 104 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:49:56,968 | server.py:119 | fit progress: (104, 3.0172510147094727, {'accuracy': 0.7482874393463135}, 7198.9421927660005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:49:56,969 | server.py:168 | evaluate_round 104: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:49:57,637 | server.py:182 | evaluate_round 104 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:49:57,637 | server.py:218 | fit_round 105: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:50:56,752 | server.py:232 | fit_round 105 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:51:07,130 | server.py:119 | fit progress: (105, 3.0174481868743896, {'accuracy': 0.747887134552002}, 7269.103981010005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:51:07,130 | server.py:168 | evaluate_round 105: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:51:07,808 | server.py:182 | evaluate_round 105 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:51:07,808 | server.py:218 | fit_round 106: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:52:06,909 | server.py:232 | fit_round 106 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:52:17,434 | server.py:119 | fit progress: (106, 3.0238430500030518, {'accuracy': 0.7475461363792419}, 7339.407506165007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:52:17,434 | server.py:168 | evaluate_round 106: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:52:18,091 | server.py:182 | evaluate_round 106 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:52:18,091 | server.py:218 | fit_round 107: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:53:16,178 | server.py:232 | fit_round 107 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:53:26,628 | server.py:119 | fit progress: (107, 3.049281120300293, {'accuracy': 0.7478352189064026}, 7408.602291481002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:53:26,629 | server.py:168 | evaluate_round 107: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:53:27,285 | server.py:182 | evaluate_round 107 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:53:27,285 | server.py:218 | fit_round 108: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:54:24,579 | server.py:232 | fit_round 108 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:54:35,156 | server.py:119 | fit progress: (108, 3.07016658782959, {'accuracy': 0.7481762766838074}, 7477.130254604999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:54:35,157 | server.py:168 | evaluate_round 108: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:54:35,847 | server.py:182 | evaluate_round 108 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:54:35,847 | server.py:218 | fit_round 109: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:55:34,932 | server.py:232 | fit_round 109 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:55:46,353 | server.py:119 | fit progress: (109, 3.0396387577056885, {'accuracy': 0.7468714714050293}, 7548.32725231901)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:55:46,354 | server.py:168 | evaluate_round 109: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:55:47,155 | server.py:182 | evaluate_round 109 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:55:47,155 | server.py:218 | fit_round 110: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:56:44,957 | server.py:232 | fit_round 110 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:56:55,374 | server.py:119 | fit progress: (110, 3.0472259521484375, {'accuracy': 0.7470568418502808}, 7617.3478735829995)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:56:55,374 | server.py:168 | evaluate_round 110: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:56:56,063 | server.py:182 | evaluate_round 110 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:56:56,063 | server.py:218 | fit_round 111: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:57:55,905 | server.py:232 | fit_round 111 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:58:07,447 | server.py:119 | fit progress: (111, 3.0958406925201416, {'accuracy': 0.7475757598876953}, 7689.421120911007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:58:07,447 | server.py:168 | evaluate_round 111: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:58:08,236 | server.py:182 | evaluate_round 111 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:58:08,236 | server.py:218 | fit_round 112: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:59:06,264 | server.py:232 | fit_round 112 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 18:59:16,697 | server.py:119 | fit progress: (112, 3.1232450008392334, {'accuracy': 0.7481392025947571}, 7758.67042406401)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:59:16,697 | server.py:168 | evaluate_round 112: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:59:17,341 | server.py:182 | evaluate_round 112 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 18:59:17,342 | server.py:218 | fit_round 113: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:00:15,378 | server.py:232 | fit_round 113 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:00:25,883 | server.py:119 | fit progress: (113, 3.1149747371673584, {'accuracy': 0.7478722929954529}, 7827.856754728011)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:00:25,883 | server.py:168 | evaluate_round 113: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:00:26,555 | server.py:182 | evaluate_round 113 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:00:26,556 | server.py:218 | fit_round 114: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:01:23,580 | server.py:232 | fit_round 114 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:01:35,013 | server.py:119 | fit progress: (114, 3.1934683322906494, {'accuracy': 0.748954713344574}, 7896.98660357701)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:01:35,013 | server.py:168 | evaluate_round 114: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:01:35,663 | server.py:182 | evaluate_round 114 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:01:35,663 | server.py:218 | fit_round 115: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:02:33,917 | server.py:232 | fit_round 115 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:02:44,412 | server.py:119 | fit progress: (115, 3.1808788776397705, {'accuracy': 0.7483912706375122}, 7966.385819244999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:02:44,412 | server.py:168 | evaluate_round 115: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:02:45,089 | server.py:182 | evaluate_round 115 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:02:45,089 | server.py:218 | fit_round 116: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:03:43,143 | server.py:232 | fit_round 116 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:03:53,753 | server.py:119 | fit progress: (116, 3.189946413040161, {'accuracy': 0.7476350665092468}, 8035.727355404)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:03:53,754 | server.py:168 | evaluate_round 116: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:03:54,784 | server.py:182 | evaluate_round 116 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:03:54,785 | server.py:218 | fit_round 117: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:04:51,965 | server.py:232 | fit_round 117 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:05:08,378 | server.py:119 | fit progress: (117, 3.1927223205566406, {'accuracy': 0.7470642328262329}, 8110.352379767006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:05:08,379 | server.py:168 | evaluate_round 117: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:05:09,050 | server.py:182 | evaluate_round 117 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:05:09,051 | server.py:218 | fit_round 118: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:06:05,724 | server.py:232 | fit_round 118 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:06:16,392 | server.py:119 | fit progress: (118, 3.2385382652282715, {'accuracy': 0.7483541965484619}, 8178.365701581002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:06:16,392 | server.py:168 | evaluate_round 118: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:06:17,196 | server.py:182 | evaluate_round 118 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:06:17,196 | server.py:218 | fit_round 119: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:07:15,273 | server.py:232 | fit_round 119 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:07:25,649 | server.py:119 | fit progress: (119, 3.2424659729003906, {'accuracy': 0.7471457719802856}, 8247.623072806004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:07:25,649 | server.py:168 | evaluate_round 119: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:07:26,325 | server.py:182 | evaluate_round 119 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:07:26,325 | server.py:218 | fit_round 120: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:08:24,147 | server.py:232 | fit_round 120 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:08:34,852 | server.py:119 | fit progress: (120, 3.248154401779175, {'accuracy': 0.7476202249526978}, 8316.82570576301)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:08:34,852 | server.py:168 | evaluate_round 120: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:08:35,533 | server.py:182 | evaluate_round 120 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:08:35,534 | server.py:218 | fit_round 121: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:09:33,369 | server.py:232 | fit_round 121 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:09:43,905 | server.py:119 | fit progress: (121, 3.2719998359680176, {'accuracy': 0.7477018237113953}, 8385.878570549)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:09:43,905 | server.py:168 | evaluate_round 121: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:09:44,629 | server.py:182 | evaluate_round 121 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:09:44,630 | server.py:218 | fit_round 122: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:10:41,805 | server.py:232 | fit_round 122 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:10:52,313 | server.py:119 | fit progress: (122, 3.278089761734009, {'accuracy': 0.7468788623809814}, 8454.28708864101)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:10:52,313 | server.py:168 | evaluate_round 122: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:10:52,956 | server.py:182 | evaluate_round 122 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:10:52,956 | server.py:218 | fit_round 123: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:11:50,680 | server.py:232 | fit_round 123 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:12:02,181 | server.py:119 | fit progress: (123, 3.3400607109069824, {'accuracy': 0.748591423034668}, 8524.154622354006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:12:02,181 | server.py:168 | evaluate_round 123: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:12:03,011 | server.py:182 | evaluate_round 123 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:12:03,012 | server.py:218 | fit_round 124: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:13:01,882 | server.py:232 | fit_round 124 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:13:12,485 | server.py:119 | fit progress: (124, 3.314182996749878, {'accuracy': 0.7473607659339905}, 8594.45848866801)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:13:12,485 | server.py:168 | evaluate_round 124: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:13:13,152 | server.py:182 | evaluate_round 124 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:13:13,152 | server.py:218 | fit_round 125: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:14:11,637 | server.py:232 | fit_round 125 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:14:22,121 | server.py:119 | fit progress: (125, 3.316373825073242, {'accuracy': 0.747301459312439}, 8664.094858027005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:14:22,121 | server.py:168 | evaluate_round 125: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:14:22,782 | server.py:182 | evaluate_round 125 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:14:22,782 | server.py:218 | fit_round 126: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:15:20,184 | server.py:232 | fit_round 126 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:15:30,726 | server.py:119 | fit progress: (126, 3.333637237548828, {'accuracy': 0.7471606135368347}, 8732.699573236998)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:15:30,726 | server.py:168 | evaluate_round 126: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:15:31,397 | server.py:182 | evaluate_round 126 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:15:31,398 | server.py:218 | fit_round 127: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:16:29,513 | server.py:232 | fit_round 127 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:16:40,100 | server.py:119 | fit progress: (127, 3.3357467651367188, {'accuracy': 0.7469900846481323}, 8802.07364210501)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:16:40,100 | server.py:168 | evaluate_round 127: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:16:40,771 | server.py:182 | evaluate_round 127 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:16:40,772 | server.py:218 | fit_round 128: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:17:38,535 | server.py:232 | fit_round 128 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:17:48,847 | server.py:119 | fit progress: (128, 3.3626978397369385, {'accuracy': 0.7475312948226929}, 8870.82091221401)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:17:48,847 | server.py:168 | evaluate_round 128: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:17:49,618 | server.py:182 | evaluate_round 128 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:17:49,618 | server.py:218 | fit_round 129: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:18:47,362 | server.py:232 | fit_round 129 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:18:57,954 | server.py:119 | fit progress: (129, 3.3848459720611572, {'accuracy': 0.7480354309082031}, 8939.928381587)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:18:57,955 | server.py:168 | evaluate_round 129: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:18:58,632 | server.py:182 | evaluate_round 129 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:18:58,633 | server.py:218 | fit_round 130: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:19:57,978 | server.py:232 | fit_round 130 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:20:13,615 | server.py:119 | fit progress: (130, 3.4134294986724854, {'accuracy': 0.7479612827301025}, 9015.588895977999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:20:13,615 | server.py:168 | evaluate_round 130: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:20:14,288 | server.py:182 | evaluate_round 130 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:20:14,289 | server.py:218 | fit_round 131: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:21:11,918 | server.py:232 | fit_round 131 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:21:22,495 | server.py:119 | fit progress: (131, 3.3977510929107666, {'accuracy': 0.7461968660354614}, 9084.468529503007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:21:22,495 | server.py:168 | evaluate_round 131: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:21:23,178 | server.py:182 | evaluate_round 131 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:21:23,179 | server.py:218 | fit_round 132: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:22:20,913 | server.py:232 | fit_round 132 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:22:31,309 | server.py:119 | fit progress: (132, 3.4619228839874268, {'accuracy': 0.747783362865448}, 9153.283097688007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:22:31,309 | server.py:168 | evaluate_round 132: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:22:31,983 | server.py:182 | evaluate_round 132 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:22:31,984 | server.py:218 | fit_round 133: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:23:30,233 | server.py:232 | fit_round 133 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:23:40,576 | server.py:119 | fit progress: (133, 3.454214572906494, {'accuracy': 0.7469307780265808}, 9222.549569740004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:23:40,576 | server.py:168 | evaluate_round 133: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:23:41,246 | server.py:182 | evaluate_round 133 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:23:41,247 | server.py:218 | fit_round 134: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:24:40,255 | server.py:232 | fit_round 134 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:24:51,043 | server.py:119 | fit progress: (134, 3.454559803009033, {'accuracy': 0.7478352189064026}, 9293.016462398009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:24:51,043 | server.py:168 | evaluate_round 134: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:24:51,714 | server.py:182 | evaluate_round 134 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:24:51,715 | server.py:218 | fit_round 135: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:25:50,186 | server.py:232 | fit_round 135 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:26:00,731 | server.py:119 | fit progress: (135, 3.508340835571289, {'accuracy': 0.7477907538414001}, 9362.704656939997)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:26:00,731 | server.py:168 | evaluate_round 135: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:26:01,386 | server.py:182 | evaluate_round 135 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:26:01,387 | server.py:218 | fit_round 136: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:27:00,247 | server.py:232 | fit_round 136 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:27:11,592 | server.py:119 | fit progress: (136, 3.5103304386138916, {'accuracy': 0.7480131387710571}, 9433.565475259005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:27:11,592 | server.py:168 | evaluate_round 136: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:27:12,618 | server.py:182 | evaluate_round 136 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:27:12,618 | server.py:218 | fit_round 137: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:28:10,475 | server.py:232 | fit_round 137 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:28:21,100 | server.py:119 | fit progress: (137, 3.5192971229553223, {'accuracy': 0.7477981448173523}, 9503.074132866997)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:28:21,101 | server.py:168 | evaluate_round 137: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:28:21,754 | server.py:182 | evaluate_round 137 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:28:21,754 | server.py:218 | fit_round 138: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:29:19,786 | server.py:232 | fit_round 138 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:29:30,323 | server.py:119 | fit progress: (138, 3.553723096847534, {'accuracy': 0.7479983568191528}, 9572.297298172009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:29:30,324 | server.py:168 | evaluate_round 138: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:29:30,990 | server.py:182 | evaluate_round 138 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:29:30,991 | server.py:218 | fit_round 139: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:30:30,039 | server.py:232 | fit_round 139 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:30:40,614 | server.py:119 | fit progress: (139, 3.558786153793335, {'accuracy': 0.7479909062385559}, 9642.588154672005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:30:40,615 | server.py:168 | evaluate_round 139: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:30:41,289 | server.py:182 | evaluate_round 139 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:30:41,289 | server.py:218 | fit_round 140: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:31:39,413 | server.py:232 | fit_round 140 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:31:49,914 | server.py:119 | fit progress: (140, 3.57804012298584, {'accuracy': 0.7477462887763977}, 9711.887673001998)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:31:49,914 | server.py:168 | evaluate_round 140: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:31:50,569 | server.py:182 | evaluate_round 140 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:31:50,569 | server.py:218 | fit_round 141: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:32:48,359 | server.py:232 | fit_round 141 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:32:59,043 | server.py:119 | fit progress: (141, 3.582737922668457, {'accuracy': 0.7474793791770935}, 9781.016730074)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:32:59,043 | server.py:168 | evaluate_round 141: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:32:59,694 | server.py:182 | evaluate_round 141 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:32:59,695 | server.py:218 | fit_round 142: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:33:57,433 | server.py:232 | fit_round 142 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:34:08,899 | server.py:119 | fit progress: (142, 3.5947365760803223, {'accuracy': 0.7472643852233887}, 9850.873085485)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:34:08,900 | server.py:168 | evaluate_round 142: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:34:09,577 | server.py:182 | evaluate_round 142 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:34:09,577 | server.py:218 | fit_round 143: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:35:07,940 | server.py:232 | fit_round 143 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:35:19,294 | server.py:119 | fit progress: (143, 3.6276118755340576, {'accuracy': 0.7483468055725098}, 9921.268188539005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:35:19,295 | server.py:168 | evaluate_round 143: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:35:19,959 | server.py:182 | evaluate_round 143 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:35:19,959 | server.py:218 | fit_round 144: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:36:19,361 | server.py:232 | fit_round 144 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:36:30,938 | server.py:119 | fit progress: (144, 3.6130900382995605, {'accuracy': 0.7478500604629517}, 9992.91185251801)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:36:30,938 | server.py:168 | evaluate_round 144: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:36:31,628 | server.py:182 | evaluate_round 144 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:36:31,628 | server.py:218 | fit_round 145: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:37:30,739 | server.py:232 | fit_round 145 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:37:41,223 | server.py:119 | fit progress: (145, 3.6235909461975098, {'accuracy': 0.7479390501976013}, 10063.196975234008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:37:41,223 | server.py:168 | evaluate_round 145: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:37:41,886 | server.py:182 | evaluate_round 145 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:37:41,886 | server.py:218 | fit_round 146: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:38:40,483 | server.py:232 | fit_round 146 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:38:50,941 | server.py:119 | fit progress: (146, 3.6571998596191406, {'accuracy': 0.7480131387710571}, 10132.914972451006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:38:50,941 | server.py:168 | evaluate_round 146: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:38:51,590 | server.py:182 | evaluate_round 146 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:38:51,590 | server.py:218 | fit_round 147: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:39:48,959 | server.py:232 | fit_round 147 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:39:59,481 | server.py:119 | fit progress: (147, 3.6657614707946777, {'accuracy': 0.7478575110435486}, 10201.454534926)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:39:59,481 | server.py:168 | evaluate_round 147: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:40:00,160 | server.py:182 | evaluate_round 147 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:40:00,161 | server.py:218 | fit_round 148: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:40:58,503 | server.py:232 | fit_round 148 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:41:09,022 | server.py:119 | fit progress: (148, 3.681328535079956, {'accuracy': 0.7482133507728577}, 10270.995894227002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:41:09,022 | server.py:168 | evaluate_round 148: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:41:09,689 | server.py:182 | evaluate_round 148 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:41:09,689 | server.py:218 | fit_round 149: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:42:08,046 | server.py:232 | fit_round 149 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:42:18,510 | server.py:119 | fit progress: (149, 3.692643642425537, {'accuracy': 0.748005747795105}, 10340.484182254004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:42:18,511 | server.py:168 | evaluate_round 149: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:42:19,193 | server.py:182 | evaluate_round 149 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:42:19,193 | server.py:218 | fit_round 150: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:43:16,895 | server.py:232 | fit_round 150 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:43:27,502 | server.py:119 | fit progress: (150, 3.722790479660034, {'accuracy': 0.7483615875244141}, 10409.475584843007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:43:27,502 | server.py:168 | evaluate_round 150: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:43:28,175 | server.py:182 | evaluate_round 150 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:43:28,176 | server.py:218 | fit_round 151: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:44:26,377 | server.py:232 | fit_round 151 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:44:36,975 | server.py:119 | fit progress: (151, 3.732038974761963, {'accuracy': 0.7477388381958008}, 10478.949230929007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:44:36,976 | server.py:168 | evaluate_round 151: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:44:37,624 | server.py:182 | evaluate_round 151 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:44:37,625 | server.py:218 | fit_round 152: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:45:35,360 | server.py:232 | fit_round 152 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:45:46,041 | server.py:119 | fit progress: (152, 3.7514309883117676, {'accuracy': 0.7479390501976013}, 10548.014597535002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:45:46,041 | server.py:168 | evaluate_round 152: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:45:46,709 | server.py:182 | evaluate_round 152 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:45:46,709 | server.py:218 | fit_round 153: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:46:44,083 | server.py:232 | fit_round 153 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:46:59,551 | server.py:119 | fit progress: (153, 3.744109630584717, {'accuracy': 0.7481318116188049}, 10621.525311691003)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:46:59,552 | server.py:168 | evaluate_round 153: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:47:00,219 | server.py:182 | evaluate_round 153 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:47:00,220 | server.py:218 | fit_round 154: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:47:57,565 | server.py:232 | fit_round 154 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:48:07,944 | server.py:119 | fit progress: (154, 3.806682586669922, {'accuracy': 0.7488731145858765}, 10689.917423227002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:48:07,944 | server.py:168 | evaluate_round 154: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:48:08,625 | server.py:182 | evaluate_round 154 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:48:08,626 | server.py:218 | fit_round 155: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:49:05,680 | server.py:232 | fit_round 155 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:49:16,194 | server.py:119 | fit progress: (155, 3.82159423828125, {'accuracy': 0.7490436434745789}, 10758.168182825)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:49:16,195 | server.py:168 | evaluate_round 155: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:49:16,860 | server.py:182 | evaluate_round 155 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:49:16,860 | server.py:218 | fit_round 156: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:50:15,695 | server.py:232 | fit_round 156 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:50:26,136 | server.py:119 | fit progress: (156, 3.8318240642547607, {'accuracy': 0.7481614351272583}, 10828.110038004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:50:26,136 | server.py:168 | evaluate_round 156: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:50:26,803 | server.py:182 | evaluate_round 156 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:50:26,803 | server.py:218 | fit_round 157: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:51:24,971 | server.py:232 | fit_round 157 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:51:35,552 | server.py:119 | fit progress: (157, 3.7889037132263184, {'accuracy': 0.7473459243774414}, 10897.526190481003)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:51:35,553 | server.py:168 | evaluate_round 157: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:51:36,390 | server.py:182 | evaluate_round 157 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:51:36,390 | server.py:218 | fit_round 158: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:52:34,946 | server.py:232 | fit_round 158 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:52:45,498 | server.py:119 | fit progress: (158, 3.8433985710144043, {'accuracy': 0.748242974281311}, 10967.472377444006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:52:45,499 | server.py:168 | evaluate_round 158: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:52:46,160 | server.py:182 | evaluate_round 158 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:52:46,160 | server.py:218 | fit_round 159: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:53:43,546 | server.py:232 | fit_round 159 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:53:54,230 | server.py:119 | fit progress: (159, 3.8372325897216797, {'accuracy': 0.7478055953979492}, 11036.203951596006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:53:54,230 | server.py:168 | evaluate_round 159: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:53:54,895 | server.py:182 | evaluate_round 159 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:53:54,896 | server.py:218 | fit_round 160: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:54:54,431 | server.py:232 | fit_round 160 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:55:04,747 | server.py:119 | fit progress: (160, 3.854410409927368, {'accuracy': 0.7479390501976013}, 11106.720806526006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:55:04,747 | server.py:168 | evaluate_round 160: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:55:05,427 | server.py:182 | evaluate_round 160 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:55:05,427 | server.py:218 | fit_round 161: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:56:03,200 | server.py:232 | fit_round 161 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:56:13,747 | server.py:119 | fit progress: (161, 3.848789930343628, {'accuracy': 0.747523844242096}, 11175.721236935002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:56:13,748 | server.py:168 | evaluate_round 161: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:56:14,426 | server.py:182 | evaluate_round 161 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:56:14,426 | server.py:218 | fit_round 162: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:57:12,226 | server.py:232 | fit_round 162 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:57:23,622 | server.py:119 | fit progress: (162, 3.8871114253997803, {'accuracy': 0.748250424861908}, 11245.596262570005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:57:23,623 | server.py:168 | evaluate_round 162: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:57:24,285 | server.py:182 | evaluate_round 162 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:57:24,286 | server.py:218 | fit_round 163: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:58:22,716 | server.py:232 | fit_round 163 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:58:33,321 | server.py:119 | fit progress: (163, 3.8785853385925293, {'accuracy': 0.7478352189064026}, 11315.295313306007)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:58:33,322 | server.py:168 | evaluate_round 163: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:58:34,004 | server.py:182 | evaluate_round 163 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:58:34,005 | server.py:218 | fit_round 164: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:59:32,651 | server.py:232 | fit_round 164 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 19:59:43,014 | server.py:119 | fit progress: (164, 3.894303560256958, {'accuracy': 0.7484283447265625}, 11384.987902681009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:59:43,014 | server.py:168 | evaluate_round 164: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:59:44,046 | server.py:182 | evaluate_round 164 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 19:59:44,046 | server.py:218 | fit_round 165: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:00:42,750 | server.py:232 | fit_round 165 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:00:53,390 | server.py:119 | fit progress: (165, 3.924138069152832, {'accuracy': 0.7479835152626038}, 11455.364200377997)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:00:53,391 | server.py:168 | evaluate_round 165: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:00:54,060 | server.py:182 | evaluate_round 165 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:00:54,060 | server.py:218 | fit_round 166: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:01:51,896 | server.py:232 | fit_round 166 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:02:02,474 | server.py:119 | fit progress: (166, 3.9385170936584473, {'accuracy': 0.7475461363792419}, 11524.448100787005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:02:02,474 | server.py:168 | evaluate_round 166: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:02:03,136 | server.py:182 | evaluate_round 166 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:02:03,136 | server.py:218 | fit_round 167: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:03:02,096 | server.py:232 | fit_round 167 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:03:12,652 | server.py:119 | fit progress: (167, 3.939030408859253, {'accuracy': 0.7475979924201965}, 11594.62605618601)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:03:12,652 | server.py:168 | evaluate_round 167: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:03:13,308 | server.py:182 | evaluate_round 167 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:03:13,308 | server.py:218 | fit_round 168: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:04:12,133 | server.py:232 | fit_round 168 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:04:22,751 | server.py:119 | fit progress: (168, 3.9479689598083496, {'accuracy': 0.747657299041748}, 11664.724668309005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:04:22,751 | server.py:168 | evaluate_round 168: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:04:23,429 | server.py:182 | evaluate_round 168 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:04:23,429 | server.py:218 | fit_round 169: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:05:21,970 | server.py:232 | fit_round 169 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:05:32,447 | server.py:119 | fit progress: (169, 3.9579429626464844, {'accuracy': 0.7477092146873474}, 11734.421362801004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:05:32,448 | server.py:168 | evaluate_round 169: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:05:33,114 | server.py:182 | evaluate_round 169 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:05:33,115 | server.py:218 | fit_round 170: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:06:32,693 | server.py:232 | fit_round 170 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:06:43,163 | server.py:119 | fit progress: (170, 3.9737179279327393, {'accuracy': 0.7483245134353638}, 11805.137243739999)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:06:43,164 | server.py:168 | evaluate_round 170: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:06:43,866 | server.py:182 | evaluate_round 170 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:06:43,866 | server.py:218 | fit_round 171: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:07:40,752 | server.py:232 | fit_round 171 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:07:51,303 | server.py:119 | fit progress: (171, 3.9834134578704834, {'accuracy': 0.7487767338752747}, 11873.27700404101)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:07:51,303 | server.py:168 | evaluate_round 171: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:07:51,955 | server.py:182 | evaluate_round 171 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:07:51,955 | server.py:218 | fit_round 172: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:08:51,420 | server.py:232 | fit_round 172 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:09:02,021 | server.py:119 | fit progress: (172, 3.9938597679138184, {'accuracy': 0.7476943731307983}, 11943.995307279009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:09:02,022 | server.py:168 | evaluate_round 172: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:09:02,688 | server.py:182 | evaluate_round 172 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:09:02,688 | server.py:218 | fit_round 173: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:10:00,203 | server.py:232 | fit_round 173 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:10:10,992 | server.py:119 | fit progress: (173, 4.025153160095215, {'accuracy': 0.7481911182403564}, 12012.96547664101)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:10:10,992 | server.py:168 | evaluate_round 173: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:10:11,680 | server.py:182 | evaluate_round 173 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:10:11,680 | server.py:218 | fit_round 174: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:11:09,458 | server.py:232 | fit_round 174 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:11:20,951 | server.py:119 | fit progress: (174, 4.049211025238037, {'accuracy': 0.7483393549919128}, 12082.92480809)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:11:20,951 | server.py:168 | evaluate_round 174: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:11:21,766 | server.py:182 | evaluate_round 174 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:11:21,767 | server.py:218 | fit_round 175: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:12:20,560 | server.py:232 | fit_round 175 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:12:31,295 | server.py:119 | fit progress: (175, 4.036602020263672, {'accuracy': 0.7480131387710571}, 12153.269372315)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:12:31,296 | server.py:168 | evaluate_round 175: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:12:31,961 | server.py:182 | evaluate_round 175 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:12:31,961 | server.py:218 | fit_round 176: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:13:29,236 | server.py:232 | fit_round 176 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:13:39,757 | server.py:119 | fit progress: (176, 4.048890590667725, {'accuracy': 0.7481021285057068}, 12221.73057391301)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:13:39,757 | server.py:168 | evaluate_round 176: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:13:40,411 | server.py:182 | evaluate_round 176 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:13:40,412 | server.py:218 | fit_round 177: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:14:38,559 | server.py:232 | fit_round 177 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:14:49,013 | server.py:119 | fit progress: (177, 4.069054126739502, {'accuracy': 0.7481540441513062}, 12290.987018499)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:14:49,013 | server.py:168 | evaluate_round 177: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:14:49,672 | server.py:182 | evaluate_round 177 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:14:49,672 | server.py:218 | fit_round 178: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:15:47,399 | server.py:232 | fit_round 178 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:15:57,962 | server.py:119 | fit progress: (178, 4.072757720947266, {'accuracy': 0.7487545013427734}, 12359.935682652009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:15:57,962 | server.py:168 | evaluate_round 178: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:15:58,627 | server.py:182 | evaluate_round 178 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:15:58,628 | server.py:218 | fit_round 179: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:16:56,549 | server.py:232 | fit_round 179 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:17:07,075 | server.py:119 | fit progress: (179, 4.066006183624268, {'accuracy': 0.7481614351272583}, 12429.049298394006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:17:07,076 | server.py:168 | evaluate_round 179: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:17:07,750 | server.py:182 | evaluate_round 179 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:17:07,750 | server.py:218 | fit_round 180: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:18:05,463 | server.py:232 | fit_round 180 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:18:16,066 | server.py:119 | fit progress: (180, 4.0936360359191895, {'accuracy': 0.7484208941459656}, 12498.039400334004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:18:16,066 | server.py:168 | evaluate_round 180: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:18:16,749 | server.py:182 | evaluate_round 180 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:18:16,749 | server.py:218 | fit_round 181: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:19:14,534 | server.py:232 | fit_round 181 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:19:25,952 | server.py:119 | fit progress: (181, 4.105562210083008, {'accuracy': 0.7484283447265625}, 12567.925827972009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:19:25,952 | server.py:168 | evaluate_round 181: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:19:26,616 | server.py:182 | evaluate_round 181 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:19:26,616 | server.py:218 | fit_round 182: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:20:25,361 | server.py:232 | fit_round 182 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:20:35,766 | server.py:119 | fit progress: (182, 4.1007866859436035, {'accuracy': 0.748836100101471}, 12637.739742261008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:20:35,766 | server.py:168 | evaluate_round 182: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:20:36,443 | server.py:182 | evaluate_round 182 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:20:36,443 | server.py:218 | fit_round 183: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:21:33,499 | server.py:232 | fit_round 183 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:21:44,899 | server.py:119 | fit progress: (183, 4.13923454284668, {'accuracy': 0.7483393549919128}, 12706.873124613005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:21:44,900 | server.py:168 | evaluate_round 183: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:21:45,556 | server.py:182 | evaluate_round 183 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:21:45,556 | server.py:218 | fit_round 184: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:22:43,590 | server.py:232 | fit_round 184 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:22:54,263 | server.py:119 | fit progress: (184, 4.126856803894043, {'accuracy': 0.7480502128601074}, 12776.236562948005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:22:54,263 | server.py:168 | evaluate_round 184: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:22:54,921 | server.py:182 | evaluate_round 184 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:22:54,921 | server.py:218 | fit_round 185: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:23:52,311 | server.py:232 | fit_round 185 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:24:02,805 | server.py:119 | fit progress: (185, 4.125419616699219, {'accuracy': 0.748020589351654}, 12844.778447965)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:24:02,805 | server.py:168 | evaluate_round 185: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:24:03,485 | server.py:182 | evaluate_round 185 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:24:03,486 | server.py:218 | fit_round 186: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:25:01,356 | server.py:232 | fit_round 186 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:25:11,884 | server.py:119 | fit progress: (186, 4.122030258178711, {'accuracy': 0.7482874393463135}, 12913.857735814003)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:25:11,884 | server.py:168 | evaluate_round 186: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:25:12,548 | server.py:182 | evaluate_round 186 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:25:12,548 | server.py:218 | fit_round 187: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:26:10,446 | server.py:232 | fit_round 187 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:26:20,923 | server.py:119 | fit progress: (187, 4.129288673400879, {'accuracy': 0.748813807964325}, 12982.897271566006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:26:20,924 | server.py:168 | evaluate_round 187: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:26:21,597 | server.py:182 | evaluate_round 187 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:26:21,597 | server.py:218 | fit_round 188: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:27:19,736 | server.py:232 | fit_round 188 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:27:30,300 | server.py:119 | fit progress: (188, 4.127264499664307, {'accuracy': 0.7482948899269104}, 13052.273633275006)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:27:30,300 | server.py:168 | evaluate_round 188: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:27:30,983 | server.py:182 | evaluate_round 188 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:27:30,983 | server.py:218 | fit_round 189: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:28:29,276 | server.py:232 | fit_round 189 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:28:39,874 | server.py:119 | fit progress: (189, 4.1698503494262695, {'accuracy': 0.7485543489456177}, 13121.847498684001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:28:39,874 | server.py:168 | evaluate_round 189: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:28:40,535 | server.py:182 | evaluate_round 189 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:28:40,535 | server.py:218 | fit_round 190: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:29:39,256 | server.py:232 | fit_round 190 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:29:50,121 | server.py:119 | fit progress: (190, 4.164116859436035, {'accuracy': 0.7483615875244141}, 13192.094529652008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:29:50,121 | server.py:168 | evaluate_round 190: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:29:50,834 | server.py:182 | evaluate_round 190 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:29:50,834 | server.py:218 | fit_round 191: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:30:49,374 | server.py:232 | fit_round 191 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:30:59,960 | server.py:119 | fit progress: (191, 4.161799907684326, {'accuracy': 0.7481318116188049}, 13261.93415596601)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:30:59,961 | server.py:168 | evaluate_round 191: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:31:00,642 | server.py:182 | evaluate_round 191 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:31:00,642 | server.py:218 | fit_round 192: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:31:58,948 | server.py:232 | fit_round 192 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:32:09,384 | server.py:119 | fit progress: (192, 4.183490753173828, {'accuracy': 0.7482800483703613}, 13331.357508924004)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:32:09,384 | server.py:168 | evaluate_round 192: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:32:10,379 | server.py:182 | evaluate_round 192 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:32:10,379 | server.py:218 | fit_round 193: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:33:08,702 | server.py:232 | fit_round 193 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:33:19,164 | server.py:119 | fit progress: (193, 4.1882734298706055, {'accuracy': 0.7481540441513062}, 13401.138185004005)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:33:19,165 | server.py:168 | evaluate_round 193: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:33:19,816 | server.py:182 | evaluate_round 193 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:33:19,816 | server.py:218 | fit_round 194: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:34:17,526 | server.py:232 | fit_round 194 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:34:28,145 | server.py:119 | fit progress: (194, 4.190925121307373, {'accuracy': 0.7485172748565674}, 13470.118565657001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:34:28,145 | server.py:168 | evaluate_round 194: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:34:28,826 | server.py:182 | evaluate_round 194 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:34:28,827 | server.py:218 | fit_round 195: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | ERROR flwr 2024-02-17 20:35:20,255 | ray_client_proxy.py:87 | Task was killed due to the node running low on memory.
+Memory on the node (IP: 10.17.0.243, ID: accb9ec793b874e9389f36290174b20a00613319bf3fa4d521fdd36b) where the task (task ID: 6893215967f2cd80abe62353fd7cbf8de3d0353601000000, name=launch_and_fit, pid=1980051, memory used=3.10GB) was running was 29.77GB / 31.33GB (0.950082), which exceeds the memory usage threshold of 0.95. Ray killed this worker (ID: b9dd55d98497bdc39115f573a3d73a3ebc9f18e4136d22d9fa75522a) because it was the most recently scheduled task; to see more information about memory usage on this node, use `ray logs raylet.out -ip 10.17.0.243`. To see the logs of the worker, use `ray logs worker-b9dd55d98497bdc39115f573a3d73a3ebc9f18e4136d22d9fa75522a*out -ip 10.17.0.243. Top 10 memory users:
+PID	MEM(GB)	COMMAND
+1980047	3.17	ray::IDLE
+1980046	3.16	ray::launch_and_fit
+1980052	3.14	ray::launch_and_fit
+1980050	3.13	ray::IDLE
+1980049	3.11	ray::IDLE
+1980048	3.11	ray::IDLE
+1980051	3.10	ray::launch_and_fit
+1980053	3.07	ray::IDLE
+1979915	1.46	python flower_experiment_script_complete_unbalanced_serial_check_point.py checkpoint_iteration=100 i...
+1979953	0.08	/home/admin/miniconda3/envs/flower/lib/python3.9/site-packages/ray/core/src/ray/gcs/gcs_server --log...
+Refer to the documentation on how to address the out of memory issue: https://docs.ray.io/en/latest/ray-core/scheduling/ray-oom-prevention.html. Consider provisioning more memory on this node or reducing task parallelism by requesting more CPUs per task. To adjust the kill threshold, set the environment variable `RAY_memory_usage_threshold` when starting Ray. To disable worker killing, set the environment variable `RAY_memory_monitor_refresh_ms` to zero.
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:35:26,007 | server.py:232 | fit_round 195 received 18 results and 1 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:35:36,692 | server.py:119 | fit progress: (195, 4.182384014129639, {'accuracy': 0.7485172748565674}, 13538.66585409001)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:35:36,692 | server.py:168 | evaluate_round 195: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:35:41,235 | server.py:182 | evaluate_round 195 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:35:41,235 | server.py:218 | fit_round 196: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:36:39,552 | server.py:232 | fit_round 196 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:36:50,182 | server.py:119 | fit progress: (196, 4.2025251388549805, {'accuracy': 0.7483393549919128}, 13612.155668307008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:36:50,182 | server.py:168 | evaluate_round 196: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:36:50,847 | server.py:182 | evaluate_round 196 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:36:50,847 | server.py:218 | fit_round 197: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:37:48,639 | server.py:232 | fit_round 197 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:37:59,044 | server.py:119 | fit progress: (197, 4.208832263946533, {'accuracy': 0.7481614351272583}, 13681.018152399003)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:37:59,045 | server.py:168 | evaluate_round 197: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:37:59,713 | server.py:182 | evaluate_round 197 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:37:59,713 | server.py:218 | fit_round 198: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:38:56,445 | server.py:232 | fit_round 198 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:39:06,961 | server.py:119 | fit progress: (198, 4.201168060302734, {'accuracy': 0.7477907538414001}, 13748.935333157002)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:39:06,962 | server.py:168 | evaluate_round 198: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:39:07,655 | server.py:182 | evaluate_round 198 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:39:07,655 | server.py:218 | fit_round 199: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:40:06,289 | server.py:232 | fit_round 199 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:40:16,775 | server.py:119 | fit progress: (199, 4.255411148071289, {'accuracy': 0.7483615875244141}, 13818.748605993009)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:40:16,775 | server.py:168 | evaluate_round 199: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:40:17,464 | server.py:182 | evaluate_round 199 received 0 results and 19 failures
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:40:17,464 | server.py:218 | fit_round 200: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:41:16,235 | server.py:232 | fit_round 200 received 19 results and 0 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:26,798 | server.py:119 | fit progress: (200, 4.225305080413818, {'accuracy': 0.7483245134353638}, 13888.771600674008)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:41:26,798 | server.py:168 | evaluate_round 200: strategy sampled 19 clients (out of 19)
+myFlowerExperiment | DEBUG flwr 2024-02-17 20:41:27,474 | server.py:182 | evaluate_round 200 received 0 results and 19 failures
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:27,474 | server.py:147 | FL finished in 13889.447893227
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:27,474 | app.py:218 | app_fit: losses_distributed []
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:27,474 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:27,474 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:27,475 | app.py:221 | app_fit: losses_centralized [(0, 0.848151683807373), (1, 0.6942398548126221), (2, 0.8307570815086365), (3, 0.9151548147201538), (4, 1.0127999782562256), (5, 1.1305311918258667), (6, 1.2254877090454102), (7, 1.3114069700241089), (8, 1.3862605094909668), (9, 1.4574469327926636), (10, 1.5328483581542969), (11, 1.556503415107727), (12, 1.607469081878662), (13, 1.6456323862075806), (14, 1.690932273864746), (15, 1.7223310470581055), (16, 1.772728443145752), (17, 1.770595669746399), (18, 1.811106562614441), (19, 1.8185533285140991), (20, 1.8566375970840454), (21, 1.8616846799850464), (22, 1.8995885848999023), (23, 1.8997775316238403), (24, 1.9208160638809204), (25, 1.9574285745620728), (26, 1.9583617448806763), (27, 1.9924951791763306), (28, 2.0088348388671875), (29, 2.0229692459106445), (30, 2.0495471954345703), (31, 2.0499112606048584), (32, 2.0619757175445557), (33, 2.076416254043579), (34, 2.086965799331665), (35, 2.083256959915161), (36, 2.1036505699157715), (37, 2.121528148651123), (38, 2.1467463970184326), (39, 2.129333734512329), (40, 2.132479667663574), (41, 2.1357581615448), (42, 2.1373634338378906), (43, 2.1525073051452637), (44, 2.1823155879974365), (45, 2.1808931827545166), (46, 2.1725261211395264), (47, 2.188398838043213), (48, 2.177861452102661), (49, 2.1998085975646973), (50, 2.189871311187744), (51, 2.2285330295562744), (52, 2.216984987258911), (53, 2.2400290966033936), (54, 2.244866371154785), (55, 2.254253387451172), (56, 2.267580986022949), (57, 2.276365041732788), (58, 2.307968854904175), (59, 2.3125290870666504), (60, 2.3439245223999023), (61, 2.3181710243225098), (62, 2.3427658081054688), (63, 2.364194869995117), (64, 2.360785484313965), (65, 2.3773953914642334), (66, 2.403926134109497), (67, 2.4022326469421387), (68, 2.4435081481933594), (69, 2.412196636199951), (70, 2.4541356563568115), (71, 2.4673452377319336), (72, 2.491016149520874), (73, 2.4879374504089355), (74, 2.5265517234802246), (75, 2.5334877967834473), (76, 2.5820865631103516), (77, 2.5592684745788574), (78, 2.584346055984497), (79, 2.5988729000091553), (80, 2.6491262912750244), (81, 2.6624462604522705), (82, 2.6635444164276123), (83, 2.669830799102783), (84, 2.669179677963257), (85, 2.6994311809539795), (86, 2.7237226963043213), (87, 2.7413289546966553), (88, 2.7383673191070557), (89, 2.7813069820404053), (90, 2.763453960418701), (91, 2.7975449562072754), (92, 2.803905963897705), (93, 2.8311057090759277), (94, 2.8375866413116455), (95, 2.859468460083008), (96, 2.8839476108551025), (97, 2.8654215335845947), (98, 2.8834264278411865), (99, 2.888094663619995), (100, 2.9362633228302), (101, 2.954078435897827), (102, 2.9493930339813232), (103, 2.953076124191284), (104, 3.0172510147094727), (105, 3.0174481868743896), (106, 3.0238430500030518), (107, 3.049281120300293), (108, 3.07016658782959), (109, 3.0396387577056885), (110, 3.0472259521484375), (111, 3.0958406925201416), (112, 3.1232450008392334), (113, 3.1149747371673584), (114, 3.1934683322906494), (115, 3.1808788776397705), (116, 3.189946413040161), (117, 3.1927223205566406), (118, 3.2385382652282715), (119, 3.2424659729003906), (120, 3.248154401779175), (121, 3.2719998359680176), (122, 3.278089761734009), (123, 3.3400607109069824), (124, 3.314182996749878), (125, 3.316373825073242), (126, 3.333637237548828), (127, 3.3357467651367188), (128, 3.3626978397369385), (129, 3.3848459720611572), (130, 3.4134294986724854), (131, 3.3977510929107666), (132, 3.4619228839874268), (133, 3.454214572906494), (134, 3.454559803009033), (135, 3.508340835571289), (136, 3.5103304386138916), (137, 3.5192971229553223), (138, 3.553723096847534), (139, 3.558786153793335), (140, 3.57804012298584), (141, 3.582737922668457), (142, 3.5947365760803223), (143, 3.6276118755340576), (144, 3.6130900382995605), (145, 3.6235909461975098), (146, 3.6571998596191406), (147, 3.6657614707946777), (148, 3.681328535079956), (149, 3.692643642425537), (150, 3.722790479660034), (151, 3.732038974761963), (152, 3.7514309883117676), (153, 3.744109630584717), (154, 3.806682586669922), (155, 3.82159423828125), (156, 3.8318240642547607), (157, 3.7889037132263184), (158, 3.8433985710144043), (159, 3.8372325897216797), (160, 3.854410409927368), (161, 3.848789930343628), (162, 3.8871114253997803), (163, 3.8785853385925293), (164, 3.894303560256958), (165, 3.924138069152832), (166, 3.9385170936584473), (167, 3.939030408859253), (168, 3.9479689598083496), (169, 3.9579429626464844), (170, 3.9737179279327393), (171, 3.9834134578704834), (172, 3.9938597679138184), (173, 4.025153160095215), (174, 4.049211025238037), (175, 4.036602020263672), (176, 4.048890590667725), (177, 4.069054126739502), (178, 4.072757720947266), (179, 4.066006183624268), (180, 4.0936360359191895), (181, 4.105562210083008), (182, 4.1007866859436035), (183, 4.13923454284668), (184, 4.126856803894043), (185, 4.125419616699219), (186, 4.122030258178711), (187, 4.129288673400879), (188, 4.127264499664307), (189, 4.1698503494262695), (190, 4.164116859436035), (191, 4.161799907684326), (192, 4.183490753173828), (193, 4.1882734298706055), (194, 4.190925121307373), (195, 4.182384014129639), (196, 4.2025251388549805), (197, 4.208832263946533), (198, 4.201168060302734), (199, 4.255411148071289), (200, 4.225305080413818)]
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:27,475 | app.py:222 | app_fit: metrics_centralized {'accuracy': [(0, 0.29595664143562317), (1, 0.7109009027481079), (2, 0.7292864918708801), (3, 0.7435872554779053), (4, 0.7518088817596436), (5, 0.7541293501853943), (6, 0.7524909377098083), (7, 0.7495848536491394), (8, 0.7477018237113953), (9, 0.7478945255279541), (10, 0.7475312948226929), (11, 0.7460559606552124), (12, 0.7467825412750244), (13, 0.7477685213088989), (14, 0.7481021285057068), (15, 0.7476425170898438), (16, 0.748250424861908), (17, 0.7481318116188049), (18, 0.7480502128601074), (19, 0.7485024333000183), (20, 0.7487174272537231), (21, 0.7483615875244141), (22, 0.7479761242866516), (23, 0.7481169700622559), (24, 0.7483468055725098), (25, 0.7492660284042358), (26, 0.749073326587677), (27, 0.7488434910774231), (28, 0.7480872869491577), (29, 0.7481465935707092), (30, 0.7487174272537231), (31, 0.7488212585449219), (32, 0.7500519156455994), (33, 0.7489621043205261), (34, 0.749636709690094), (35, 0.7499926090240479), (36, 0.7494884729385376), (37, 0.7497850060462952), (38, 0.7500889897346497), (39, 0.7498591542243958), (40, 0.7498887777328491), (41, 0.7498591542243958), (42, 0.7493105530738831), (43, 0.75034099817276), (44, 0.7504448294639587), (45, 0.7502891421318054), (46, 0.7506152987480164), (47, 0.7505634427070618), (48, 0.7508006691932678), (49, 0.7507265210151672), (50, 0.7497998476028442), (51, 0.7502743005752563), (52, 0.7501705288887024), (53, 0.7501630783081055), (54, 0.7502001523971558), (55, 0.7501779198646545), (56, 0.7490436434745789), (57, 0.7482355833053589), (58, 0.7495477795600891), (59, 0.7499777674674988), (60, 0.7490658760070801), (61, 0.7464637160301208), (62, 0.7472495436668396), (63, 0.7467083930969238), (64, 0.7470568418502808), (65, 0.7472792267799377), (66, 0.7471902370452881), (67, 0.746960461139679), (68, 0.7472050786018372), (69, 0.746374785900116), (70, 0.7472199201583862), (71, 0.746834397315979), (72, 0.7465156316757202), (73, 0.7465749382972717), (74, 0.7467602491378784), (75, 0.7473829984664917), (76, 0.7470642328262329), (77, 0.7468270063400269), (78, 0.745781660079956), (79, 0.7459447979927063), (80, 0.7459447979927063), (81, 0.7474645376205444), (82, 0.7455592751502991), (83, 0.7462116479873657), (84, 0.7462339401245117), (85, 0.7447289824485779), (86, 0.7459002733230591), (87, 0.7469011545181274), (88, 0.7459299564361572), (89, 0.7473088502883911), (90, 0.746597170829773), (91, 0.7479093670845032), (92, 0.7478204369544983), (93, 0.7480131387710571), (94, 0.7483912706375122), (95, 0.7482355833053589), (96, 0.7485617995262146), (97, 0.7474571466445923), (98, 0.7477536797523499), (99, 0.7481688261032104), (100, 0.7477536797523499), (101, 0.7475757598876953), (102, 0.7478945255279541), (103, 0.7468937039375305), (104, 0.7482874393463135), (105, 0.747887134552002), (106, 0.7475461363792419), (107, 0.7478352189064026), (108, 0.7481762766838074), (109, 0.7468714714050293), (110, 0.7470568418502808), (111, 0.7475757598876953), (112, 0.7481392025947571), (113, 0.7478722929954529), (114, 0.748954713344574), (115, 0.7483912706375122), (116, 0.7476350665092468), (117, 0.7470642328262329), (118, 0.7483541965484619), (119, 0.7471457719802856), (120, 0.7476202249526978), (121, 0.7477018237113953), (122, 0.7468788623809814), (123, 0.748591423034668), (124, 0.7473607659339905), (125, 0.747301459312439), (126, 0.7471606135368347), (127, 0.7469900846481323), (128, 0.7475312948226929), (129, 0.7480354309082031), (130, 0.7479612827301025), (131, 0.7461968660354614), (132, 0.747783362865448), (133, 0.7469307780265808), (134, 0.7478352189064026), (135, 0.7477907538414001), (136, 0.7480131387710571), (137, 0.7477981448173523), (138, 0.7479983568191528), (139, 0.7479909062385559), (140, 0.7477462887763977), (141, 0.7474793791770935), (142, 0.7472643852233887), (143, 0.7483468055725098), (144, 0.7478500604629517), (145, 0.7479390501976013), (146, 0.7480131387710571), (147, 0.7478575110435486), (148, 0.7482133507728577), (149, 0.748005747795105), (150, 0.7483615875244141), (151, 0.7477388381958008), (152, 0.7479390501976013), (153, 0.7481318116188049), (154, 0.7488731145858765), (155, 0.7490436434745789), (156, 0.7481614351272583), (157, 0.7473459243774414), (158, 0.748242974281311), (159, 0.7478055953979492), (160, 0.7479390501976013), (161, 0.747523844242096), (162, 0.748250424861908), (163, 0.7478352189064026), (164, 0.7484283447265625), (165, 0.7479835152626038), (166, 0.7475461363792419), (167, 0.7475979924201965), (168, 0.747657299041748), (169, 0.7477092146873474), (170, 0.7483245134353638), (171, 0.7487767338752747), (172, 0.7476943731307983), (173, 0.7481911182403564), (174, 0.7483393549919128), (175, 0.7480131387710571), (176, 0.7481021285057068), (177, 0.7481540441513062), (178, 0.7487545013427734), (179, 0.7481614351272583), (180, 0.7484208941459656), (181, 0.7484283447265625), (182, 0.748836100101471), (183, 0.7483393549919128), (184, 0.7480502128601074), (185, 0.748020589351654), (186, 0.7482874393463135), (187, 0.748813807964325), (188, 0.7482948899269104), (189, 0.7485543489456177), (190, 0.7483615875244141), (191, 0.7481318116188049), (192, 0.7482800483703613), (193, 0.7481540441513062), (194, 0.7485172748565674), (195, 0.7485172748565674), (196, 0.7483393549919128), (197, 0.7481614351272583), (198, 0.7477907538414001), (199, 0.7483615875244141), (200, 0.7483245134353638)]}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:44,863 | app.py:146 | Starting Flower simulation, config: ServerConfig(num_rounds=0, round_timeout=None)
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:47,380 | app.py:180 | Flower VCE: Ray initialized with resources: {'node:__internal_head__': 1.0, 'object_store_memory': 9643033804.0, 'node:10.17.0.243': 1.0, 'memory': 19286067611.0, 'CPU': 8.0}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:47,380 | server.py:86 | Initializing global parameters
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:47,380 | server.py:269 | Using initial parameters provided by strategy
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:47,380 | server.py:88 | Evaluating initial parameters
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | server.py:91 | initial parameters (loss, other metrics): 4.225305080413818, {'accuracy': 0.7483245134353638}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | server.py:101 | FL starting
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | server.py:147 | FL finished in 3.3420074032619596e-06
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | app.py:218 | app_fit: losses_distributed []
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | app.py:219 | app_fit: metrics_distributed_fit {}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | app.py:220 | app_fit: metrics_distributed {}
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,012 | app.py:221 | app_fit: losses_centralized [(0, 4.225305080413818)]
+myFlowerExperiment | INFO flwr 2024-02-17 20:41:52,013 | app.py:222 | app_fit: metrics_centralized {'accuracy': [(0, 0.7483245134353638)]}
